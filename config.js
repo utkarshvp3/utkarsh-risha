@@ -5,8 +5,8 @@
  * ─────────────────────────────────────────────────────────────
  */
 window.CONFIG = {
-  groom: { name: 'Utkarsh', photo: 'assets/groom.png' },
-  bride: { name: 'Risha',   photo: 'assets/bride.png' },
+  groom: { name: 'Utkarsh', photo: 'assets/groom.webp' },
+  bride: { name: 'Risha',   photo: 'assets/bride.webp' },
 
   // Main wedding muhurat — drives the Save-the-Date countdown.
   wedding: '2026-11-26T12:34',
@@ -36,8 +36,8 @@ window.CONFIG = {
 
   // Photo memories (6 slots). Replace with your own photos.
   gallery: [
-    'assets/gallery-1.png', 'assets/gallery-2.png', 'assets/gallery-3.png',
-    'assets/gallery-4.png', 'assets/gallery-5.png', 'assets/gallery-6.png',
+    'assets/gallery-1.webp', 'assets/gallery-2.webp', 'assets/gallery-3.webp',
+    'assets/gallery-4.webp', 'assets/gallery-5.webp', 'assets/gallery-6.webp',
   ],
 
   // Optional background music. Put an .mp3 in assets/ and set e.g. 'assets/music.mp3'.
