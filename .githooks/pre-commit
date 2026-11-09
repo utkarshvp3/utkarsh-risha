@@ -1,0 +1,29 @@
+#!/bin/bash
+# Stamp cache-busting versions into index.html before every commit.
+#
+# GitHub Pages lets browsers reuse files for up to 10 minutes. Each link
+# below gets ?v=<first 8 chars of the file's hash>, so the URL changes
+# whenever that file changes and browsers fetch the fresh copy.
+#
+# Runs automatically on `git commit` (enabled with
+#   git config core.hooksPath .githooks).
+# You can also run it by hand: .githooks/pre-commit
+
+set -e
+cd "$(git rev-parse --show-toplevel)"
+
+FILES="config.js js/render.js css/site.css"
+
+before=$(shasum index.html)
+for f in $FILES; do
+  [ -f "$f" ] || continue
+  v=$(shasum "$f" | cut -c1-8)
+  # Replace "file" or "file?v=old" (inside quotes) with "file?v=new".
+  F="$f" V="$v" perl -pi -e 's#(["\x27])\Q$ENV{F}\E(\?v=[0-9a-f]+)?(["\x27])#$1$ENV{F}?v=$ENV{V}$3#g' index.html
+done
+
+# Only stage index.html when this script actually changed it.
+if [ "$before" != "$(shasum index.html)" ]; then
+  git add index.html
+  echo "pre-commit: updated asset versions in index.html"
+fi
