@@ -1,0 +1,84 @@
+/* Base reset (replaces the WordPress theme stylesheet) */
+*, *::before, *::after { box-sizing: border-box; }
+html { overflow-x: hidden; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: #fdf6ee;
+  color: #3a2a26;
+  font-family: 'Jost', 'Poppins', system-ui, sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+img, video { max-width: 100%; }
+h1, h2, h3, p { margin-top: 0; }
+button { font: inherit; }
+
+/* Venue section — styled to match the template palette */
+.im-venue {
+  position: relative;
+  padding: 64px 20px;
+  text-align: center;
+  background:
+    linear-gradient(rgba(253, 246, 238, .82), rgba(253, 246, 238, .82)),
+    url("../assets/Warm-Ivory.webp") center / cover;
+}
+.im-venue__inner { max-width: 520px; margin: 0 auto; }
+.im-venue__eyebrow {
+  margin: 0 0 4px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 26px;
+  color: #b8860b;
+}
+.im-venue__title {
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.1;
+  color: #8b3a4b;
+}
+.im-venue__rule {
+  width: 120px;
+  height: 1px;
+  margin: 16px auto 28px;
+  background: linear-gradient(90deg, transparent, #c9a05a, transparent);
+}
+.im-venue__photo {
+  overflow: hidden;
+  border: 6px solid #fffaf3;
+  border-radius: 14px;
+  box-shadow: 0 12px 36px rgba(90, 30, 40, .18), 0 0 0 1px #e7c9a9;
+}
+.im-venue__photo img { display: block; width: 100%; height: auto; }
+.im-venue__name {
+  margin: 28px 0 8px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 28px;
+  color: #8b3a4b;
+}
+.im-venue__address {
+  margin: 0 auto 24px;
+  max-width: 420px;
+  font-family: 'Jost', sans-serif;
+  font-size: 15px;
+  color: #5a4440;
+}
+.im-venue__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 26px;
+  border-radius: 999px;
+  border: 1px solid #d4a64a;
+  background: #9e2a4b;
+  color: #fff3e6;
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  letter-spacing: .04em;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(158, 42, 75, .28);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.im-venue__btn:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(158, 42, 75, .35); }
+@media (min-width: 768px) { .im-venue { padding: 96px 24px; } }
