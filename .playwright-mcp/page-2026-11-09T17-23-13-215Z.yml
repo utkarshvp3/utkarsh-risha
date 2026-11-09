@@ -1,0 +1,103 @@
+- main [ref=e2]:
+  - generic [ref=e3] [cursor=pointer]
+  - generic [ref=e5]:
+    - generic [ref=e9]:
+      - paragraph [ref=e10]: The Wedding Invitation Of
+      - heading "Utkarsh & Risha" [level=1] [ref=e11]:
+        - generic [ref=e12]: Utkarsh
+        - generic [ref=e13]: "&"
+        - generic [ref=e14]: Risha
+    - button "Scroll down":
+      - generic: Scroll
+  - generic [ref=e19]:
+    - paragraph [ref=e20]: वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ, निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥
+    - paragraph [ref=e21]: With the blessings of our families, we joyfully request the honour of your presence at the wedding celebration of
+    - heading "Utkarsh and Risha" [level=2] [ref=e22]:
+      - generic [ref=e23]: Utkarsh
+      - generic [ref=e24]: and
+      - generic [ref=e25]: Risha
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - paragraph [ref=e29]: Getting to Know Us
+      - heading "Meet The Couple" [level=2] [ref=e30]
+      - paragraph [ref=e32]: Two hearts, one beautiful journey together.
+    - generic [ref=e33]:
+      - article [ref=e35]:
+        - img "Utkarsh" [ref=e39]
+        - paragraph [ref=e40]: The Groom
+        - heading "Utkarsh" [level=3] [ref=e41]
+      - article [ref=e47]:
+        - img "Risha" [ref=e51]
+        - paragraph [ref=e52]: The Bride
+        - heading "Risha" [level=3] [ref=e53]
+    - paragraph [ref=e54]: “Two hearts, one beautiful journey — tied with a sacred thread and a garland of jasmine.”
+  - generic [ref=e56]:
+    - generic [ref=e57]:
+      - paragraph [ref=e58]: A Little Surprise
+      - heading "Save The Date" [level=2] [ref=e59]
+      - paragraph [ref=e61]: Behind this seal lies a date that will begin our forever. Pull down to discover our special day.
+    - generic [ref=e63] [cursor=pointer]:
+      - generic [ref=e64]:
+        - paragraph [ref=e65]: 🎉
+        - paragraph [ref=e66]: We're Getting Married
+        - paragraph [ref=e67]: Thu, 26 Nov 2026
+        - paragraph [ref=e68]: 12:34 PM · Muhurat
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: "16"
+            - generic [ref=e73]: Days
+          - generic [ref=e75]:
+            - generic [ref=e76]: "13"
+            - generic [ref=e77]: Hours
+          - generic [ref=e79]:
+            - generic [ref=e80]: "40"
+            - generic [ref=e81]: Minutes
+          - generic [ref=e83]:
+            - generic [ref=e84]: "46"
+            - generic [ref=e85]: Seconds
+      - generic:
+        - button "Pull down to open" [ref=e88]
+        - generic [aria-hidden]: Pull Down to Reveal
+  - generic [ref=e91]:
+    - generic [ref=e98]:
+      - generic [ref=e99] [cursor=pointer]:
+        - paragraph [aria-hidden]: Tap the cover to open
+        - generic [ref=e101]:
+          - heading "Wedding Functions" [level=2] [ref=e102]
+          - generic [aria-hidden] [ref=e103]: ❦
+          - paragraph [ref=e104]: We would love to see you at each one.
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - generic [ref=e107]: Engagement
+              - generic [ref=e109]: Wed, 25 Nov 2026
+            - listitem [ref=e110]:
+              - generic [ref=e111]: Sangeet
+              - generic [ref=e113]: Wed, 25 Nov 2026
+            - listitem [ref=e114]:
+              - generic [ref=e115]: Haldi
+              - generic [ref=e117]: Wed, 25 Nov 2026
+            - listitem [ref=e118]:
+              - generic [ref=e119]: Wedding
+              - generic [ref=e121]: Thu, 26 Nov 2026
+      - text: ❦ › › ❦ › › ❦ › › ❦ › ›
+    - generic [ref=e122]:
+      - button "Previous page" [disabled] [ref=e123]
+      - button "Next page" [ref=e126] [cursor=pointer]
+  - generic [ref=e130]:
+    - paragraph [ref=e131]: Where it all happens
+    - heading "The Venue" [level=2] [ref=e132]
+    - heading "Nahata Lawns & Banquets" [level=3] [ref=e135]
+    - paragraph [ref=e136]: 29/1B, Sinhgad Rd, next to Vidya Sahakari Bank, near Veer Baji Pasalkar Chowk, Kirti Nagar, Vadgaon Budruk, Pune, Maharashtra 411041
+    - link "Get Directions" [ref=e137] [cursor=pointer]:
+      - /url: https://maps.app.goo.gl/a6XLtug7DjC8wotv9
+  - paragraph [ref=e142]: “Two souls, one heart, one beautiful journey.”
+  - generic [ref=e145]:
+    - paragraph [ref=e147]: Utkarsh & Risha
+    - generic [aria-hidden] [ref=e148]:
+      - generic [ref=e150]: ❦
+      - generic [ref=e151]: ✿
+      - generic [ref=e152]: ❦
+    - paragraph [ref=e154]: "\"Thank You for Being Part of Our Celebration\""
+    - generic [ref=e155]:
+      - paragraph [ref=e156]: Thu, 26 Nov 2026
+      - paragraph [ref=e157]: Nahata Lawns & Banquets, Pune

@@ -82,3 +82,24 @@ button { font: inherit; }
 }
 .im-venue__btn:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(158, 42, 75, .35); }
 @media (min-width: 768px) { .im-venue { padding: 96px 24px; } }
+
+/* Footer stamp: the U&R wax seal image already carries the initials */
+body .im-love-footer .im-love-footer__initials-circle { width: 96px; height: 96px; background-position: center; }
+body .im-love-footer .im-love-footer__initials-text { display: none; }
+
+/* Torn-paper edge between Save the Date and Wedding Functions.
+   Same divider the removed Photo Memories section used on its top edge. */
+body .im-flipcal::after {
+  content: '';
+  position: absolute;
+  top: -70px;
+  left: -5%;
+  width: 110%;
+  height: 72px;
+  background-image: url("../assets/section_divider-5eb986.svg");
+  background-size: cover;
+  pointer-events: none;
+  z-index: 2;
+}
+@media (max-width: 1199px) { body .im-flipcal::after { top: -44px; } }
+@media (max-width: 480px)  { body .im-flipcal::after { top: -38px; } }
