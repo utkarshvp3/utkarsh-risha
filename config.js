@@ -32,7 +32,7 @@ window.CONFIG = {
       note: 'Shubh muhurat at 12:34 PM — join us as we begin our forever.', timeLabel: '12:34 PM · Muhurat' },
   ],
 
-  // Optional background music. Put an .mp3 in assets/ and set e.g. 'assets/music.mp3'.
+  // Optional background music (.m4a or .mp3 in assets/).
   // Leave empty ('') to hide the music button.
-  music: '',
+  music: 'assets/music.m4a',
 };
