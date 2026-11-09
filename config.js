@@ -5,8 +5,8 @@
  * ─────────────────────────────────────────────────────────────
  */
 window.CONFIG = {
-  groom: { name: 'Utkarsh', photo: 'assets/groom-utkarsh.webp' },
-  bride: { name: 'Risha',   photo: 'assets/bride-risha.webp' },
+  groom: { name: 'Utkarsh', photo: 'assets/groom-utkarsh-3.webp' },
+  bride: { name: 'Risha',   photo: 'assets/bride-risha-3.webp' },
 
   // Main wedding muhurat — drives the Save-the-Date countdown.
   wedding: '2026-11-26T12:34',
