@@ -24,7 +24,7 @@ window.CONFIG = {
   events: [
     { name: 'Engagement', start: '2026-11-25T16:00', durationHours: 3, image: 'assets/wedding-reception.webp',
       note: 'Rings, blessings and the first promise of forever.' },
-    { name: 'Sangeet',    start: '2026-11-25T20:00', durationHours: 2, image: 'assets/wedding-sangeet.webp',
+    { name: 'Sangeet',    start: '2026-11-25T19:00', durationHours: 2, image: 'assets/wedding-sangeet.webp',
       note: 'Music, dance and a night of celebration with family and friends.' },
     { name: 'Haldi',      start: '2026-11-25T22:00', durationHours: 2, image: 'assets/wedding-haldi.webp',
       note: 'Turmeric, marigolds and laughter — a golden blessing for the couple.' },
