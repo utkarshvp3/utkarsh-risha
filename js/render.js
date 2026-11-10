@@ -157,4 +157,14 @@
     if (!C.music) music.remove();
     else music.querySelector('audio').src = C.music;
   }
+
+  // 5. "Venue & directions" cue under the event book: smooth-scroll to it.
+  document.querySelectorAll('.im-next-hint').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      var target = document.querySelector(a.getAttribute('href'));
+      if (!target) return;
+      e.preventDefault();
+      window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 10, behavior: 'smooth' });
+    });
+  });
 })();
